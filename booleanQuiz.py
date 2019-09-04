@@ -27,7 +27,8 @@
 import collections
 from random import choice
 
-TruthTable = collections.namedtuple('TruthTable', 'proposition, value', verbose=False)
+#TruthTable = collections.namedtuple('TruthTable', 'proposition, value', verbose=False) #Didn't work in 3.7
+TruthTable = collections.namedtuple('TruthTable', 'proposition, value')
 
 numberOfQuestionsToAsk = 19
 
