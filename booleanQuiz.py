@@ -160,3 +160,4 @@ print ("\n")
 for item in incorrectAnswers:
     print (item)
     # print "\n"
+print("Score:",len(incorrectAnswers)/(len(incorrectAnswers)+len(correctAnswers)))
